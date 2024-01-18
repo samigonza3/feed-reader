@@ -1,4 +1,9 @@
-const MIT = [
+const data = [
+  {
+    "title": "Descarbonizar los cimientos de la sociedad: el reto del cemento limpio",
+    "link": "/s/16045/descarbonizar-los-cimientos-de-la-sociedad-el-reto-del-cemento-limpio",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_231102_Subime-Systems_482.jpg?itok=0y3tDRih"
+  },
   {
     "title": "Desinformación, robots y vídeos: qué esperar de la IA en 2024",
     "link": "/s/16105/desinformacion-robots-y-videos-que-esperar-de-la-ia-en-2024",
@@ -23,11 +28,7 @@ const MIT = [
     "title": "Las 10 Tecnologías Emergentes 2024",
     "link": "/s/16082/las-10-tecnologias-emergentes-2024",
     "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/articles/images/cabecera_tr10.png?itok=tWHCAUoN"
-  },
-  {
-    "title": "Las vacunas sin aguja contra el Covid están (aún) en desarrollo",
-    "link": "/s/16013/las-vacunas-sin-aguja-contra-el-covid-estan-aun-en-desarrollo",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_GettyImages-1692367827-crop.jpg?itok=69qlQNc0"
   }
 ];
-export default MIT;
+
+export default data;

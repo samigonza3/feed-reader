@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prestart": "node src/Scraping/Funnel.js && node src/Scraping/MIT.js",
+    "prestart": "node src/Scraping/scrape.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

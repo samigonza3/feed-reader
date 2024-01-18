@@ -7,6 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import FunnelIO from '../Pages/Funnel';
 import MITTechReview from '../Pages/MIT';
+import MinTIC from '../Pages/MinTIC'
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -40,12 +41,16 @@ const SimpleSidebar = () => {
           <ListItem button key="MITTechReview" component="a" href="/mittechreview">
             <ListItemText primary="MIT Tech Review" />
           </ListItem>
+          <ListItem button key="MinTIC" component="a" href="/mintic">
+            <ListItemText primary="Convocatorias MinTIC" />
+          </ListItem>
         </List>
       </Drawer>
 
       <Routes>
         <Route path="/funnelio" element={<FunnelIO />} />
         <Route path="/mittechreview" element={<MITTechReview />} />
+        <Route path="/mintic" element={<MinTIC />} />
       </Routes>
     </Router>
   );

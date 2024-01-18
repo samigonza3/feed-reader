@@ -1,9 +1,13 @@
 const fs = require('fs');
+const path = require('path');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
 // URL de la página a scrapear
 const url = "https://www.technologyreview.es/";
+
+// Ruta del archivo de resultados en la misma carpeta
+const filePath = path.join(__dirname, 'mit_results.js');
 
 // Realizar la solicitud a la página
 axios.get(url)
@@ -36,13 +40,13 @@ axios.get(url)
             });
         });
 
-        // Convertir el array a formato de código JavaScript
-        const jsCode = `const data = ${JSON.stringify(results, null, 2)};`;
+        // Convertir el array a formato de código JavaScript con export default
+        const jsCode = `const data = ${JSON.stringify(results, null, 2)};\n\nexport default data;`;
 
-        // Escribir los resultados en un archivo
-        fs.writeFileSync('resultados.js', jsCode, 'utf-8');
+        // Escribir los resultados en un archivo en la misma carpeta
+        fs.writeFileSync(filePath, jsCode, 'utf-8');
 
-        console.log('Resultados guardados en resultados.js');
+        console.log(`Resultados guardados en ${filePath}`);
     })
     .catch(error => {
         console.error(`Error: ${error.message}`);

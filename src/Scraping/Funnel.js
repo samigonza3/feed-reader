@@ -1,9 +1,10 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
+const path = require('path');
 
 const url = 'https://funnel.io/blog';
-const outputFile = 'funelio_results.js';
+const outputFile = path.join(__dirname, 'funelio_results.js'); // Se utiliza path.join para obtener la ruta completa
 
 axios.get(url)
   .then((response) => {

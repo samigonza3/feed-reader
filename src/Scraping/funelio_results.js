@@ -1,5 +1,10 @@
 const data = [
   {
+    "title": "UGC creators — what they are, and why many brands love them",
+    "url": "https://funnel.io/blog/ugc-creators",
+    "image": "https://funnel.io/hs-fs/hubfs/UGC%20creators.png?width=640&height=360&name=UGC%20creators.png"
+  },
+  {
     "title": "The art of ad buying (for agencies)",
     "url": "https://funnel.io/blog/ad-buying-for-agencies",
     "image": "https://funnel.io/hs-fs/hubfs/agency%20ad%20buying.png?width=640&height=360&name=agency%20ad%20buying.png"
@@ -43,11 +48,6 @@ const data = [
     "title": "Funnel wrapped — 2023",
     "url": "https://funnel.io/blog/funnel-wrapped-2023",
     "image": "https://funnel.io/hs-fs/hubfs/funnel%20wrapped.png?width=640&height=360&name=funnel%20wrapped.png"
-  },
-  {
-    "title": "What is brand marketing?",
-    "url": "https://funnel.io/blog/what-is-brand-marketing",
-    "image": "https://funnel.io/hs-fs/hubfs/brand%20marketing.jpg?width=640&height=360&name=brand%20marketing.jpg"
   }
 ];
 
