@@ -82,3 +82,39 @@ axios.get(url3)
     .catch(error => {
         console.error(`Error: ${error.message}`);
     });
+
+// Script 4: StudioBinder
+
+    const url4 = 'https://www.studiobinder.com/blog/';
+    const outputFile = path.join(__dirname, 'studiobinder_results.js'); // Ruta completa del archivo de salida
+    
+    axios.get(url4)
+      .then((response) => {
+        if (response.status === 200) {
+          const $ = cheerio.load(response.data);
+    const posts = $('.post-wrapper');
+    const results = [];
+    
+    posts.each((index, element) => {
+      const title = $(element).find('.tcb-post-thumbnail').attr('title');
+      const link = $(element).find('.tcb-post-thumbnail').attr('href');
+      const image = $(element).find('.tcb-post-thumbnail img').attr('data-lazy-src');
+
+ 
+            results.push({
+              title: title,
+              url: link,
+              image: image,
+            });
+          });
+    
+          const outputData = `const data = ${JSON.stringify(results, null, 2)};\n\nexport default data;`;
+          fs.writeFileSync(outputFile, outputData);
+    
+          console.log(`Los resultados se han guardado en ${outputFile}`);
+        }
+      })
+      .catch((error) => {
+        console.error('Error al obtener la página:', error);
+      });
+    

@@ -1,53 +1,53 @@
 const data = [
   {
-    "title": "UGC creators — what they are, and why many brands love them",
-    "url": "https://funnel.io/blog/ugc-creators",
-    "image": "https://funnel.io/hs-fs/hubfs/UGC%20creators.png?width=640&height=360&name=UGC%20creators.png"
+    "title": "Understanding Consent Mode V2",
+    "url": "https://funnel.io/blog/consent-mode-v2",
+    "image": "https://funnel.io/hs-fs/hubfs/consent%20mode%20v2.png?width=640&height=360&name=consent%20mode%20v2.png"
   },
   {
-    "title": "The art of ad buying (for agencies)",
-    "url": "https://funnel.io/blog/ad-buying-for-agencies",
-    "image": "https://funnel.io/hs-fs/hubfs/agency%20ad%20buying.png?width=640&height=360&name=agency%20ad%20buying.png"
+    "title": "The keys to unlocking a dashboard’s potential",
+    "url": "https://funnel.io/blog/the-keys-to-dashboard-potential",
+    "image": "https://funnel.io/hs-fs/hubfs/key%20to%20dashboard%20potential.png?width=640&height=360&name=key%20to%20dashboard%20potential.png"
   },
   {
-    "title": "What’s in and what’s out in 2024?",
-    "url": "https://funnel.io/blog/marketer-resolutions-2024",
-    "image": "https://funnel.io/hs-fs/hubfs/marketing%20resolutions%202024.png?width=640&height=360&name=marketing%20resolutions%202024.png"
+    "title": "Your guide to big data visualization",
+    "url": "https://funnel.io/blog/big-data-visualization",
+    "image": "https://funnel.io/hs-fs/hubfs/big%20data%20visualization.png?width=640&height=360&name=big%20data%20visualization.png"
   },
   {
-    "title": "What is ad fatigue and how to prevent it",
-    "url": "https://funnel.io/blog/ad-fatigue",
-    "image": "https://funnel.io/hs-fs/hubfs/Ad%20Fatigue-1.png?width=640&height=360&name=Ad%20Fatigue-1.png"
+    "title": "An expert eye for dashboard design",
+    "url": "https://funnel.io/blog/expert-dashboard-design",
+    "image": "https://funnel.io/hs-fs/hubfs/fender0fx_a_monochromatic_still_life_image_of_an_architects_t_b1593de4-240d-46fe-8a32-a5e48fcb7e02_2-2.png?width=640&height=360&name=fender0fx_a_monochromatic_still_life_image_of_an_architects_t_b1593de4-240d-46fe-8a32-a5e48fcb7e02_2-2.png"
   },
   {
-    "title": "The end of third-party cookies in Chrome is here",
-    "url": "https://funnel.io/blog/chrome-cookies",
-    "image": "https://funnel.io/hs-fs/hubfs/Cookies%20going%20away-1.png?width=640&height=360&name=Cookies%20going%20away-1.png"
+    "title": "Make insights inclusive with accessible data visualization",
+    "url": "https://funnel.io/blog/inclusive-marketing-accessible-data-visualization",
+    "image": "https://funnel.io/hs-fs/hubfs/accessible%20data%20visualization.png?width=640&height=360&name=accessible%20data%20visualization.png"
   },
   {
-    "title": "Optimize Google Ads headlines with these 11 expert tips",
-    "url": "https://funnel.io/blog/google-ads-headlines",
-    "image": "https://funnel.io/hs-fs/hubfs/Google%20Ads%20Headlines.png?width=640&height=360&name=Google%20Ads%20Headlines.png"
+    "title": "Marketing personalization 101",
+    "url": "https://funnel.io/blog/marketing-personalization-101",
+    "image": "https://funnel.io/hs-fs/hubfs/fender0fx_a_couture_fashion_house_measuring_the_shoulders_and_a_2990811e-2aac-49b2-a2e5-61bc2f72ecc6-2.png?width=640&height=360&name=fender0fx_a_couture_fashion_house_measuring_the_shoulders_and_a_2990811e-2aac-49b2-a2e5-61bc2f72ecc6-2.png"
   },
   {
-    "title": "Performance marketing channels to try in 2024",
-    "url": "https://funnel.io/blog/performance-marketing-channels",
-    "image": "https://funnel.io/hs-fs/hubfs/performance%20channels%20to%20try.png?width=640&height=360&name=performance%20channels%20to%20try.png"
+    "title": "Your steps to set up a TikTok Shop",
+    "url": "https://funnel.io/blog/set-up-tiktok-shop",
+    "image": "https://funnel.io/hs-fs/hubfs/tiktok%20shop.png?width=640&height=360&name=tiktok%20shop.png"
   },
   {
-    "title": "Beating back marketer imposter syndrome",
-    "url": "https://funnel.io/blog/marketer-imposter-syndrome",
-    "image": "https://funnel.io/hs-fs/hubfs/marketer%20imposter%20syndrome.png?width=640&height=360&name=marketer%20imposter%20syndrome.png"
+    "title": "Enhance your data visualization techniques",
+    "url": "https://funnel.io/blog/enhance-data-visualization-techniques",
+    "image": "https://funnel.io/hs-fs/hubfs/enhance%20data%20viz.png?width=640&height=360&name=enhance%20data%20viz.png"
   },
   {
-    "title": "Multi-touch attribution vs. marketing mix modeling",
-    "url": "https://funnel.io/blog/mta-vs-mmm",
-    "image": "https://funnel.io/hs-fs/hubfs/mmm%20vs%20mta.png?width=640&height=360&name=mmm%20vs%20mta.png"
+    "title": "Email personalization techniques beyond 'Dear [Name]'",
+    "url": "https://funnel.io/blog/beyond-dear-name-email-personalization-techniques",
+    "image": "https://funnel.io/hs-fs/hubfs/fender0fx_an_image_to_acompany_a_blog_article_about_email_per_7eaee734-c0e7-4ef7-9001-7337123411c0_0.png?width=640&height=360&name=fender0fx_an_image_to_acompany_a_blog_article_about_email_per_7eaee734-c0e7-4ef7-9001-7337123411c0_0.png"
   },
   {
-    "title": "Funnel wrapped — 2023",
-    "url": "https://funnel.io/blog/funnel-wrapped-2023",
-    "image": "https://funnel.io/hs-fs/hubfs/funnel%20wrapped.png?width=640&height=360&name=funnel%20wrapped.png"
+    "title": "Ethical data visualization in marketing",
+    "url": "https://funnel.io/blog/ethical-data-visualization-marketing-best-practices",
+    "image": "https://funnel.io/hs-fs/hubfs/ethical%20data%20visualization.png?width=640&height=360&name=ethical%20data%20visualization.png"
   }
 ];
 

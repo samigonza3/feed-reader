@@ -1,33 +1,33 @@
 const data = [
   {
-    "title": "Descarbonizar los cimientos de la sociedad: el reto del cemento limpio",
-    "link": "/s/16045/descarbonizar-los-cimientos-de-la-sociedad-el-reto-del-cemento-limpio",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_231102_Subime-Systems_482.jpg?itok=0y3tDRih"
+    "title": "Una ‘spinoff’ de OpenAI crea una IA que permite a robots aprender como los humanos",
+    "link": "/s/16248/una-spinoff-de-openai-crea-una-ia-que-permite-robots-aprender-como-los-humanos",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_UShapedPutwall_HealthAndBeauty_Radial3PL_A.jpg?itok=vgqkntV6"
   },
   {
-    "title": "Desinformación, robots y vídeos: qué esperar de la IA en 2024",
-    "link": "/s/16105/desinformacion-robots-y-videos-que-esperar-de-la-ia-en-2024",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/articles/images/watch-ai_0.jpg?itok=FMt8tFcb"
+    "title": "La IA irrumpe en el 'marketing' digital de Latinoamérica como tendencia en alza",
+    "link": "/s/16268/la-ia-irrumpe-en-el-marketing-digital-de-latinoamerica-como-tendencia-en-alza",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/articles/images/pexels-fauxels-3184360.jpg?itok=M1KLJBwC"
   },
   {
-    "title": "EE UU busca recuperar terreno en el mercado de producción de materiales de tierras raras",
-    "link": "/s/16068/ee-uu-busca-recuperar-terreno-en-el-mercado-de-produccion-de-materiales-de-tierras-raras",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_UrbanMining_DB_35_Reduced2-extend-e1702506352894.jpg?itok=-GVhW1g9"
+    "title": "La búsqueda de vida extraterrestre se centra en Europa, la luna de Júpiter",
+    "link": "/s/16178/la-busqueda-de-vida-extraterrestre-se-centra-en-europa-la-luna-de-jupiter",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_europa.jpg?itok=_MEbl_o-"
   },
   {
-    "title": "La computación cuántica se abre camino a través del ruido",
-    "link": "/s/16100/la-computacion-cuantica-se-abre-camino-traves-del-ruido",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/articles/images/231024_tr_jaygambetta.jpg?itok=tPi7hE5h"
+    "title": "Probar fármacos, crear bioordenadores y otros usos de los organoides",
+    "link": "/s/16245/probar-farmacos-crear-bioordenadores-y-otros-usos-de-los-organoides",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_A-kidney-organoid-generated-from-a-human-pluripotent-stem-cell-line-16-Minoru-Takasato.jpg?itok=5u0asPQT"
   },
   {
-    "title": "Un mapa neurológico para entender el hambre y los mecanismos de saciedad",
-    "link": "/s/16041/un-mapa-neurologico-para-entender-el-hambre-y-los-mecanismos-de-saciedad",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_HungerDemon_MIT_mag_FF.png?itok=KoK3shvz"
+    "title": "Tecnología de código abierto para combatir la desconfianza en las elecciones de EE UU",
+    "link": "/s/16240/tecnologia-de-codigo-abierto-para-combatir-la-desconfianza-en-las-elecciones-de-ee-uu",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_GettyImages-1283733024-thumb.jpg?itok=Kz4dt2Ic"
   },
   {
-    "title": "Las 10 Tecnologías Emergentes 2024",
-    "link": "/s/16082/las-10-tecnologias-emergentes-2024",
-    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/articles/images/cabecera_tr10.png?itok=tWHCAUoN"
+    "title": "Cómo las IA se vuelven más racistas con la intervención humana",
+    "link": "/s/16246/como-las-ia-se-vuelven-mas-racistas-con-la-intervencion-humana",
+    "image": "http://www.technologyreview.es/sites/default/files/styles/tr_thumbnail_hoz_big/public/mit-images/feed_mit_image_covertLLMrascism2b.jpg?itok=O5O8BLu2"
   }
 ];
 

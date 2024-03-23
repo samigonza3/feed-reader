@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import FunnelIO from '../Pages/Funnel';
 import MITTechReview from '../Pages/MIT';
 import MinTIC from '../Pages/MinTIC'
+import StudioBinder from '../Pages/StudioBinder'
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -44,6 +46,9 @@ const SimpleSidebar = () => {
           <ListItem button key="MinTIC" component="a" href="/mintic">
             <ListItemText primary="Convocatorias MinTIC" />
           </ListItem>
+          <ListItem button key="StudioBinder" component="a" href="/studiobinder">
+            <ListItemText primary="StudioBinder" />
+          </ListItem>
         </List>
       </Drawer>
 
@@ -51,6 +56,7 @@ const SimpleSidebar = () => {
         <Route path="/funnelio" element={<FunnelIO />} />
         <Route path="/mittechreview" element={<MITTechReview />} />
         <Route path="/mintic" element={<MinTIC />} />
+        <Route path="/studiobinder" element={<StudioBinder />} />
       </Routes>
     </Router>
   );
